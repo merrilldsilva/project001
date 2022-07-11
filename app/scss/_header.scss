@@ -1,3 +1,4 @@
+@use 'function' as f;
 .header{
 
     nav{
@@ -21,5 +22,19 @@
             }
         }
     }
+
+    &__links{
+
+        a{
+            font-size: f.rem(14);
+            color: $Grayish_Blue;
+        }
+    }
+
+    &__cta{
+        font-size: f.rem(14);
+        color: $White;
+    }
+
 }
 
