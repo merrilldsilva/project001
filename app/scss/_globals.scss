@@ -1,4 +1,5 @@
 @use '_function' as f;
+@use'_mixins' as m;
 html
 {
     font-size: 100%;
@@ -55,14 +56,14 @@ button, .button{
 }
 
 .hide-for-mobile{
- @include breakPointDown(medium){
+ @include m.breakPointDown(small){
     display: none;
  }
 }
 
 .hide-for-desktop{
 
-    @include breakPointUp(large){
+    @include m.breakPointUp(medium){
         display: none;
      }
 }
