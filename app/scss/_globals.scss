@@ -56,14 +56,14 @@ button, .button{
 }
 
 .hide-for-mobile{
- @include m.breakPointDown(small){
+ @include m.breakPointDown(medium){
     display: none;
  }
 }
 
 .hide-for-desktop{
 
-    @include m.breakPointUp(medium){
+    @include m.breakPointUp(large){
         display: none;
      }
 }
