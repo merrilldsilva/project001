@@ -39,6 +39,17 @@
                 transform:rotate(-45deg) ;
             
             }
+
+         
+        }
+        .overlay{
+            position: fixed;
+            top:60px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-image: linear-gradient($Dark_Blue,transparent);
+    
         }
     }
 
@@ -48,7 +59,7 @@
             position: relative;
             font-size: f.rem(14);
             color: $Grayish_Blue;
-            transition: 200ms ease-in-out;
+            transition: 300ms ease-in-out;
             &:not(:last-child){
                 margin-right: f.rem(32);
             }
@@ -89,5 +100,6 @@
         }
     }
 
+    
 }
 

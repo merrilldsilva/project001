@@ -1,14 +1,14 @@
-const btnh = document.querySelector('#btnham');
-btnh.addEventListener('click',function(){
+const btn = document.querySelector('#btnham');
+btn.addEventListener('click',function(){
     console.log('click initiated');
 
-    if(btnh.classList.contains('open')){
+    if(btn.classList.contains('open')){
 
-        btnh.classList.remove('open');
+        btn.classList.remove('open');
     }
 
     else{
-        btnh.classList.add('open');
+        btn.classList.add('open');
     }
 
 });
