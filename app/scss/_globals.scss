@@ -22,8 +22,21 @@ body{
     line-height: 1.3;
     color: $Grayish_Blue;
     font-weight: 300;
+
+
 }
 
+#over.overlay{
+    background: fixed;
+    opacity: 0;
+   // width: 100%;
+   // height:100%;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-image: linear-gradient($Dark_Blue,transparent);
+}
 a{
     
 }

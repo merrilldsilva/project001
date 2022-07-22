@@ -42,15 +42,7 @@
 
          
         }
-        .overlay{
-            position: fixed;
-            top:60px;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background-image: linear-gradient($Dark_Blue,transparent);
-    
-        }
+ 
     }
 
     &__links{
@@ -100,6 +92,6 @@
         }
     }
 
+
     
 }
-
